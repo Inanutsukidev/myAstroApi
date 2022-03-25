@@ -20,6 +20,8 @@ Exercice demandé  :
         * login (email) : admin@admin.com
         * password : password
 
+A noter que j'ai utilisé PostMan pour effectuer mes tests. L'authentification choisi est BASIC (mail et password).
+
 Ensuite j'ai : 
 * Créé une route ```GET``` /users qui permet de récupérer toutes les infos des utilisateurs en paginant le résultat.
 * Créé une route ```GET``` /user/{id} qui permet de récupérer toutes les infos d’un utilisateur en particulier.

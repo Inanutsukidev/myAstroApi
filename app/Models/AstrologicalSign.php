@@ -9,6 +9,13 @@ class AstrologicalSign extends Model
 {
     use HasFactory;
 
+    /**
+     * This function allows you to return the zodiac astrological sign 
+     * in relation to the date of birth 
+     *
+     * @param String $date
+     * @return String
+     */
     public function whatsTheZodiakSign($date)
     {
         $astrological_sign = '';
@@ -57,6 +64,13 @@ class AstrologicalSign extends Model
         return $astrological_sign;
     }
 
+    /**
+     * This function allows you to return the Chinese astrological sign 
+     * in relation to the date of birth 
+     *
+     * @param String $date
+     * @return String
+     */
     public function whatTheChineseSign($date)
     {
         list($annee, $mois, $jour) = explode("-", $date);

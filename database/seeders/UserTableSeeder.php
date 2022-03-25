@@ -16,6 +16,7 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
+        // create admin account 
         $astro_sign = new AstrologicalSign();
 
         $birthday_date = new \DateTime("27-12-2014");
@@ -31,6 +32,8 @@ class UserTableSeeder extends Seeder
                 'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
                 'remember_token' => Str::random(10),
             ]);
+
+        // create 20 accounts
         User::factory(20)->create();
     }
 }

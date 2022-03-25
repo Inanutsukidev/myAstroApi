@@ -31,8 +31,8 @@ Ensuite j'ai :
     * password => string|min 8 caractères
     * birthday_date => date|format(d-m-Y)
     >Lors de la création d’un utilisateur, ses signes astrologiques du Zodiac et Chinois lui sont ajoutés.
-* Créé une route ```PUT``` /user{id} qui permet après authentification de modifier les informations d’un utilisateur.
-* Créé une route ```DELETE``` /user{id} qui permet après authentification de supprimer un utilisateur.
+* Créé une route ```PUT``` /user/{id} qui permet après authentification de modifier les informations d’un utilisateur.
+* Créé une route ```DELETE``` /user/{id} qui permet après authentification de supprimer un utilisateur.
 
 Je tiens à m’excuser d’avance pour les tests unitaires, je n’ai malheureusement encore jamais appris à les faires, dans ma société actuel nous n’en faisons pas, et c’est une choses qui a déjà été remonté. Par contre, il est clair que j’aimerais apprendre et prendre l’habitude d’en faire car je suis conscient que c’est la bonne pratique.
 
